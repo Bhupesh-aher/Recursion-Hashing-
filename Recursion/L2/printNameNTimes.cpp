@@ -8,7 +8,7 @@ void printName(int i, int n){
 }
 
 int main(){
-    int n = 5;
+    int n = 3;
     printName(1, n);
 }
 

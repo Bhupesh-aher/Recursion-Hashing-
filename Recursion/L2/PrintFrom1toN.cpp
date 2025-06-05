@@ -8,7 +8,7 @@ void print1ToN(int i, int n){
 }
 
 int main(){
-    int n = 5;
+    int n = 3;
     print1ToN(1, n);
 }
 

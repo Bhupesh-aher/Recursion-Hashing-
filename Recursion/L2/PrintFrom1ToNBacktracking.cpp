@@ -8,7 +8,7 @@ void print1ToNBacktracking(int i, int n){
 }
 
 int main(){
-    int n = 5;
+    int n = 3;
     print1ToNBacktracking(n, n);
 }
 
