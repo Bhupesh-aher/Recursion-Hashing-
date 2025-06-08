@@ -14,5 +14,5 @@ int main(){
 
 }
 
-// TC - O(N^2) exponential in nature 
-// SC - O(N^2) recursive stack space 
+// TC - O(2^N) exponential in nature 
+// SC - O(2^N) recursive stack space 
