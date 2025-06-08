@@ -24,7 +24,6 @@ int main(){
 
     cout << isPalindrome(s, 0, n-1);
     // cout << checkPalindrome(s, 0, n);
-    
 
 }
 
