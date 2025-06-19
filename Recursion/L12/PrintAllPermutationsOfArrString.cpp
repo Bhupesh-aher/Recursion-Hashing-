@@ -23,7 +23,7 @@ void printAllPermutations(vector<int> &arr, vector<int> &ds, vector<int> &hashAr
 // SC - O(n) +  O(n)     +  O(n)
 //      ds    hashArr  auxillary stack space
 
-// In this approach - 1 we are using the extra space of O(n) for hashArr
+// In this approach - 1 we are using the extra space of O(n) for hashArr and ds O(n)
 // in the next L13 we will see the approach - 2 in that we won't use this extra space of hasharr 
 
 
