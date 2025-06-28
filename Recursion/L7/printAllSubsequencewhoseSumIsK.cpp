@@ -35,12 +35,15 @@ void printF(int ind, vector<int>&ds, int sum, int arr[], int n, int k){
         return;
     }
 
+    // pick
     ds.push_back(arr[ind]);
     sum += arr[ind];
     printF(ind + 1, ds, sum, arr, n, k);
 
     sum -= arr[ind];
     ds.pop_back();
+
+    // not pick
     printF(ind + 1, ds, sum, arr, n, k);
 }
 

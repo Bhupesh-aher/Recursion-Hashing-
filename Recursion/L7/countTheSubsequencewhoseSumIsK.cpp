@@ -6,7 +6,7 @@ using namespace std;
 
 
 //we will learn - technique to count in the below code
-// on base condtion if(sum == k) satisfied then return 1. if not satsifed then return 0
+// in the base condtion if(sum == k) conditon satisfied then return 1. if not satsifed then return 0
 // call both recursive function and store them like this
 // left = f()
 // right = f()
@@ -24,12 +24,15 @@ int printF(int ind, vector<int>&ds, int sum, int arr[], int n, int k){
         return 0;
     }
 
+    // pick
     ds.push_back(arr[ind]);
     sum += arr[ind];
     int left = printF(ind + 1, ds, sum, arr, n, k) == true;
 
     sum -= arr[ind];
     ds.pop_back();
+
+    // not pick
     int right = printF(ind + 1, ds, sum, arr, n, k) == true;
 
     return left + right;
